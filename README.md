@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# WG Character Poll
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Disclaimer
+As this the first time using both React and creating a twitch extension, I did an effort on providing some code using help from twitch's documentation and some of the extension codes available on github to see how it works. I got the knowledge on how to setup an extension for twitch (and the importance of the twitch's helper script).
 
-## Available Scripts
+## Design Ideas
+The concept was going to be simple, the streamer should be able to just set the time for the poll and launch it, and then see the results as character name and number of votes if votes are > 0.
+For the viewer, once the streamer starts the poll, they have x amount of seconds to vote by clicking on the portrait of their favourite character (in this example I am using Dota 2's portraits).
+And then rince and repeat when needed,
 
-In the project directory, you can run:
+## Improvements
+The main improvement I would like to see, is a search bar for the viewer, as MOBAs usually have a few dozens of characters scrolling shouldn't be enough.
+As an incentive to sub, maybe subbed viewers can cast votes twice, or their votes can be counted with a higher coefficient, or use bits to cast extra votes.
+Include a mobile version, and maybe instead of panel use video-component? or use chat input as an option as well?
+Actually make the extension work... as right now it is not really functional...
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
